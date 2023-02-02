@@ -1,18 +1,28 @@
 import './HeroimgStyle.css';
 import intro_img from './img/intro.jpg';
-import { Link, LINK} from "react-router-dom";
+import profaile from './img/profaile.png';
+import { FaGithub,FaInstagram ,FaLinkedin ,FaFacebook } from "react-icons/fa";
 const Heroimg = () =>{
     return(
         <div className='hero'>
             <div className='mask'>
                 <img className='intro-img' src={intro_img} alt="introimg"/>
                 <div className="conten">
-                    <p>HI, I'M A FREELANCER</p>
-                    <h1>WEB PROGRAMMER</h1>
-                    <div>
-                        <Link to="/Projet" className='btn'>PROJET</Link>
-                        <Link to="/Contact" className='btn light'>CONTACT</Link>
+                    <div className='conten_writing' >
+                        <h1>Welcome I'm Mohammed</h1>
+                        <p>Full-Stack Developer</p>
                     </div>
+                    
+                        <img className='profaile' src={profaile}></img>
+                        <div className='icon'>
+                            <a href='https://github.com/MohammedBouabdelloui'><FaGithub /></a>
+                            <a href='#'><FaInstagram /></a>
+                            <a href='https://www.linkedin.com/in/mohammed-bouabdellaoui-835022254'><FaLinkedin /></a>
+                            <a href='#'><FaFacebook /></a>
+                        </div>
+                        
+                    
+                    
                 </div>
             </div>
         </div>

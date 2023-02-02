@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital@1&display=swap');
+
 .mask{
     will-change: 100%;
     height: 99vh;
@@ -19,9 +22,7 @@
 }
 .hero .conten{
     position: relative;
-    transform: translate(-50%, -50%);
-    top: -50%;
-    left: 50%;
+    top: -70%;
     text-align: center;
     z-index: 1;
     
@@ -37,33 +38,46 @@
     opacity: 0.8;
 }
 
-.btn{
-    font-size: 1rem;
-    margin: 20px;
-    padding: 12px 32px;
-    border: 1px solid #fff;
-    background: transparent;
-    font-weight: 550;
-    
-}
-.btn.light{
-    background: rgb(248, 217 , 15);
-    color: #000;
-}
-.btn:hover{
-    background: rgb(255 , 255 , 255 ,0.2);
-    color: #fff;
-    transition: 0.3;
+.conten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.conten h1{
-    font-size: 2.4rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 750;
-    margin-bottom: 40px;
-    
+.conten_writing h1{
+    font-family: 'Playball', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem
 }
-.conten p{
-    margin: 15px;
-    font-size: 1.2rem;
+.profaile{
+    position: relative;
+    bottom: 30%;
+    left: -2rem;
+    border-radius: 50%;
+}
+.icon{
+    width: auto;
+    position  : absolute;
+    left : 90%
+}
+.icon a{
+    display: block;
+    padding: 1rem;
+    font-size: 3rem;
+}
+.icon a:nth-child(1):hover{
+    color: #937979;
+    border-radius: 100%;
+    transition : 0.7s;
+}
+.icon a:nth-child(2):hover{
+    color: rgb(225, 48, 108) ;
+    transition : 0.7s
+}
+.icon a:nth-child(3):hover{
+    color: #4267B2;
+    transition : 0.7s
+}
+.icon a:nth-child(4):hover{
+    color: rgb(64, 93, 230);
+    transition : 0.7s
 }

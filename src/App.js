@@ -5,9 +5,11 @@ import Home from "./routes/Home";
 import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 import About from "./routes/About";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
+    <Navbar />
        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Project" element={<Project />} />
