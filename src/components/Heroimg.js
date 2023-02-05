@@ -16,7 +16,7 @@ const Heroimg = () =>{
                         <img className='profaile' src={profaile}></img>
                         <div className='icon'>
                             <a href='https://github.com/MohammedBouabdelloui'><FaGithub /></a>
-                            <a href='#'><FaInstagram /></a>
+                            <a href='https://www.instagram.com/mohamed_s_imo/'><FaInstagram /></a>
                             <a href='https://www.linkedin.com/in/mohammed-bouabdellaoui-835022254'><FaLinkedin /></a>
                             <a href='#'><FaFacebook /></a>
                         </div>

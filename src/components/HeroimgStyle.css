@@ -8,7 +8,7 @@
 }
 .intro-img{
     width: 100%;
-    height: 100%;
+    height: 101%;
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -19,6 +19,7 @@
 .hero{
     width: 100%;
     height: 100%;
+    transition : 0.7s;
 }
 .hero .conten{
     position: relative;
