@@ -27,7 +27,7 @@ const Bio = () => {
           {
             text?(<>I am a full web developer with 2 years of experience in website      building and website design.
               I have a strong passion for web development and enjoy working with clients to create beautiful and functional websites.</>):(<>I am a full web developer with 2 years of experience in website building and website design.
-              I have a strong passion for web development and enjoy working with clients to create beautiful and functional websites.<br/><br/>
+              I have a strong passion for web development and enjoy working with clients to create beautiful and functional websites.<br/>
               My name is Mohamed, a young Moroccan man in his twenties. I learned programming the hard way via youtube and ista through 2 years of hard work.
               I strive to provide the best possible service to my clients and always strive to exceed their expectations. I am confident that my skills and
               experience will make me the ideal candidate for your next project. If you are interested in hiring me, please feel free to contact me. 

@@ -54,12 +54,13 @@
 }
 .text p{
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin: 1.5rem;
     padding: 2rem;
     font-family: 'Playball', cursive;
     font-family: 'Playfair Display', serif;
     font-family: 'Rajdhani', sans-serif;
     font-size:1.3rem;
-    translate: .7s ease;
+    max-width: 100rem;
 }
 .text button{
     width: auto;
